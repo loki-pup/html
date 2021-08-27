@@ -57,13 +57,13 @@ h1{
 	border-bottom: dashed orange;
 }
 
-@media (max-width: 900-px) {
+@media (max-width: 500px) {
 html {
   background-color: honeydew;  /*#BFBB3F;*/
   font-family: sans-serif;
   background-image: url(images/QQ图片20200928101821.jpg), url(images/QQ图片20200928102202.jpg);
   background-repeat:repeat-x, repeat-y;
-  background-size:1%, 1%;
+  background-size:8%, 10%;
   background-position: top 0, 100% 0;
 }
 }
