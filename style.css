@@ -1,0 +1,184 @@
+p,li {
+  color: green;
+    width: 500px;
+  /* border: 1px solid black; */
+}
+
+ul{
+	list-style-image:url(boboicon.ico);
+}
+
+.listnav a{
+	padding: 1em 2em;
+	display:block;
+}
+
+h1 + p {
+  font-size: 200%;
+}
+
+ ol > li{
+	color: blue;
+}
+
+h1.highlight{
+	background-color: ivory;
+}
+
+h4.highlight{
+	background-color: pink;
+}
+
+.dog.collie{
+	color: black;
+}
+
+.dog.local{
+	color: purple;
+}
+
+li:last-child{
+	background-color:lightgrey;
+}
+
+input:focus{
+	background-color:lightcyan;
+}
+
+input[type="submit"]{
+	background-color:#999;
+	font-weight:bold;
+}
+
+textarea {
+  resize: none;
+}
+
+::spelling-error  {
+  text-decoration: wavy red;
+}
+
+
+form:invalid{
+	background-color:lightgray;
+}
+
+html {
+  background-color: honeydew;  /*#BFBB3F;*/
+  font-family: sans-serif;
+  background-image: url(images/QQ图片20200928101821.jpg), url(images/QQ图片20200928102202.jpg);
+  background-repeat:repeat-x, repeat-y;
+  background-size:25%, 25%;
+  background-position: top 0, 100% 0;
+}
+
+article p::first-line{
+	background-color:lightskyblue
+}
+
+h1{
+	border-bottom: dashed orange;
+}
+
+@media only screen and (max-width: 900px) {
+html {
+  background-color: honeydew;  /*#BFBB3F;*/
+  font-family: sans-serif;
+  background-image: url(images/QQ图片20200928101821.jpg), url(images/QQ图片20200928102202.jpg);
+  background-repeat:repeat-x, repeat-y;
+  background-size:8%, 10%;
+  background-position: top 0, 100% 0;
+}
+}
+
+a{
+  background: url(boboicon.ico) no-repeat 100% 0;
+  background-size: 12px 12px;
+  padding-right: 16px;
+}
+
+a:link {
+  color: pink;
+  font-weight: bold;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  text-decoration: none;
+  background:url(boboicon.ico);
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  background-color:azure;  /*#F7F7F7;*/
+  padding: 0 20px 20px 20px;
+  border: 2px dashed orange;
+}
+
+.special {
+  color: orange;
+  font-weight: bold;
+}
+
+li em {
+  color: rebeccapurple;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #F1A22C;
+  text-shadow: 3px 3px 1px black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width:100%;
+  max-height:100%;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200,200,200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+}
+
+th {
+  background-color: rgb(235,235,235);
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(250,250,250);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(245,245,245);
+}
+
+caption {
+  padding: 10px;
+}
+
+li[class~="broder"]{
+	background-color: DarkOliveGreen;
+	color:white;
+}
+
+li[class|="loki"]{
+	background-color: cornsilk;
+}
