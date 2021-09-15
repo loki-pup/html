@@ -203,6 +203,7 @@ play, the lights should be down low]</span>.</p></article>
 </picture>
 --->
 
+<!--<img class="fixedbobo" src="images/QQ图片20200928101821.jpg" alt="bobo portrait">-->
 
 <pre><code>var para = document.querySelector('p');
 
@@ -236,7 +237,7 @@ para.onclick = function() {
 <input type="text">
 
 <figure>
-    <img 	src="images/QQ图片20200928102202.jpg" alt="bobo image" title="bobo">
+    <img src="images/QQ图片20200928102202.jpg" alt="bobo image" title="bobo">
 	<figcaption>it's the pic of bobo</figcaption>
 	</figure>
 	
@@ -256,11 +257,50 @@ para.onclick = function() {
 Find details on our <a href="contacts.html">contacts page</a>.</p>
 
 <p>Visit my <a href="projects/index.html">project homepage</a>.</p>
+
+<title>Number guessing game</title>
+
+<h2>Number guessing game</h2>
+
+    <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+
+    <div class="form">
+      <label for="guessField">Enter a guess: </label>
+      <input type="text" id="guessField" class="guessField">
+      <input type="submit" value="Submit guess" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+	</div>  
+
+
+    <div>
+      <label for="customname">Enter custom name:</label>
+      <input id="customname" type="s" placeholder="">
+    </div>
+    <div>
+      <label for="us">US</label><input id="us" type="radio" name="ukus" value="us" checked>
+      <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk">
+    </div>
+    <div>
+      <button class="randomize">Generate random story</button>
+    </div>
+    <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
+    <p class="story"></p>
+	
+	
+    <h2 class="ballName">bouncing balls</h2>
+	<p class="ballGame">score counter</p>
+<canvas></canvas>
 	<script src="main.js"></script>
   </body>
   
       <footer>
       <p>©Copyright 2021 by bobo and loki. All rights reversed.</p>
     </footer>
+  
   
 </html> 

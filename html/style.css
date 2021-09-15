@@ -4,9 +4,52 @@ p,li {
   /* border: 1px solid black; */
 }
 
+    input[type="s"] {
+      padding: 5px;
+      width: 150px;
+    }
+
+canvas{
+	width:800px;
+	height:600px;
+}
+
+.ballName {
+  font-size: 2rem;
+  letter-spacing: -1px;
+  /*position: absolute;
+  margin: 0;
+  top: -4px;
+  right: 5px;*/
+
+  color: #aaa;/*transparent;*/
+  text-shadow: 0 0 4px white;
+}
+
+.ballGame{
+  /*position: absolute;
+  margin: 0;
+  top: 35px;
+  right: 5px;*/
+  color: #aaa;
+}
+
+
+   .story {
+      background: #FFC125;
+      color: #5E2612;
+      padding: 10px;
+      visibility: hidden;
+    }
+
 ul{
 	list-style-image:url(boboicon.ico);
 }
+
+.lastResult {
+        color: white;
+        padding: 3px;
+      }
 
 .listnav a{
 	padding: 1em 2em;
@@ -23,6 +66,10 @@ h1 + p {
 
 h1.highlight{
 	background-color: ivory;
+	position:fixed;
+	margin-top: 0;
+	padding:10px;
+	width:780px;
 }
 
 h4.highlight{
@@ -78,6 +125,7 @@ article p::first-line{
 
 h1{
 	border-bottom: dashed orange;
+	
 }
 
 @media only screen and (max-device-width: 900px) {
@@ -117,6 +165,7 @@ body {
   background-color:azure;  /*#F7F7F7;*/
   padding: 0 20px 20px 20px;
   border: 2px dashed orange;
+  
 }
 
 .special {
